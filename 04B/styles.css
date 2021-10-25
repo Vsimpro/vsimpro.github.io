@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(112, 198, 255);
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    border: 1% solid black; 
+    padding: 5%;
+}
+
+h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1% solid black; 
+    border-radius: 30px;
+    padding: 5%;
+}
+
+p {
+    margin: auto;
+    background-color: orange;
+    border: 2px solid;
+    top: 15%;  
+    height: 50%;
+    width: 50%;   
+    
+}
+
+progress {
+    position: absolute;
+    top: 12ox;
+}
+
+a {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
