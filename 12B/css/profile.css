@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+    a {
+        font-size: 225%;
+    }
+    div {  
+        padding-bottom: 2%;
+        padding-top: 2%;
+        padding-left: 0%;
+        font-size: 120%;
+    }
+}
+body {
+    color: white;
+    background-color:#111111;
+}
+
+
+div {
+    height: 100%;
+    width: 100%;    
+}
+
+.jumbotron {
+    background-color: #86868600;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:active {
+    color: #868686;
+    text-decoration: underline;
+  }
+
+
+p { 
+    border-radius: 3px; 
+    font-size: 100%;
+    color: white;
+    padding: 3%;
+    padding-bottom: 5%;
+}
+
+h1{   
+    text-align: center;
+    font-family: monospace;
+    padding-right: 0%;
+    padding-bottom: 2%;
+    font-size: 400%;
+    color: white;
+}
+
+
+h4 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 200%;
+    color: white;
+}
+
+h5 {
+    font-family: monospace;
+    padding-top: 2%;
+    color: white;
+}
+
+img {
+    padding-top: 1%;
+}
+
+.typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; 
+    border-right: .15em solid white; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .0em; 
+    animation: 
+      typing 12s steps(60, end) infinite,
+      blink-caret .5s step-end infinite;
+  }
+
+.wrapper::before {
+    content: "Ville..";
+    animation: typing 12s steps(60, end) infinite;
+}
+
+  @keyframes typing {
+    0% { width: 0% }
+    18% { width: 100% }
+    28% { width: 100% }
+    36% { width: 0%;  }
+    56% { width: 0%; }
+    72% { width: 100%; content: "Vs1m..";}
+    88% { width: 100%; content: "Vs1m..";}
+    100% { width: 0%; content: "Vs1m..";}
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+  }
+
+
+
